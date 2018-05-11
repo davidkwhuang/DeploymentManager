@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition>gs.hasRole("admin") &amp;&amp; current.type == "Data Load" &amp;&amp; current.task_status != "Complete"</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Load XML</name>
+        <onclick>callLoadXML()</onclick>
+        <order>100</order>
+        <script><![CDATA[function callLoadXML() {
+	var returnUrl = g_form.getUniqueValue();
+   var url = new GlideURL('upload.do');
+   url.addParam('sysparm_referring_url', "x_dptmgr_deployment_plan.do?sys_id=" + returnUrl);
+   url.addParam('sysparm_target', "x_dptmgr_deployment_plan");
+   var frame = top.gsft_main;
+   if (!frame)
+      frame = top;
+
+   frame.location = url.getURL();
+
+
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>chourub</sys_created_by>
+        <sys_created_on>2018-01-08 10:20:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b81a169d24af070065a11788f71a44a5</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Load XML</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_action_b81a169d24af070065a11788f71a44a5</sys_update_name>
+        <sys_updated_by>chourub</sys_updated_by>
+        <sys_updated_on>2018-02-09 12:00:12</sys_updated_on>
+        <table>x_dptmgr_deployment_plan</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

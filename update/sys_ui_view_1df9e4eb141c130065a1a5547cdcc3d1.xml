@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>rpt-temp0f82ef39249f830065a11788f71a44a3chourub</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>chourub</sys_created_by>
+        <sys_created_on>2018-02-21 08:42:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1df9e4eb141c130065a1a5547cdcc3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chourub</sys_updated_by>
+        <sys_updated_on>2018-02-21 08:42:45</sys_updated_on>
+        <title>Rpt-temp0f82ef39249f830065a11788f71a44a3chourub</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

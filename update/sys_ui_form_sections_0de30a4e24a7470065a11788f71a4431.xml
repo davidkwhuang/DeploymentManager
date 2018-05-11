@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="0de30a4e24a7470065a11788f71a4431" sys_domain="global" table="x_dptmgr_modules" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-01-10 16:37:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e30a4e24a7470065a11788f71a4434</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_modules" name="x_dptmgr_modules" sys_domain="global" view="Default view">0de30a4e24a7470065a11788f71a4431</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_modules" sys_domain="global" view="Default view">82227a1a24cb030065a11788f71a44ef</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:37:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-01-10 16:38:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62044a4e24a7470065a11788f71a44a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_modules" name="x_dptmgr_modules" sys_domain="global" view="Default view">0de30a4e24a7470065a11788f71a4431</sys_ui_form>
+            <sys_ui_section caption="Contacts" display_value="Contacts" name="x_dptmgr_modules" sys_domain="global" view="Default view">aa044a4e24a7470065a11788f71a44a5</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:38:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dptmgr_modules</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-01-10 16:37:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de30a4e24a7470065a11788f71a4431</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dptmgr_modules</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0de30a4e24a7470065a11788f71a4431</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-01-10 16:37:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>db_form_css_override.xml</formatter>
+        <name>DB CSS Override - Deployment</name>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>chourub</sys_created_by>
+        <sys_created_on>2018-02-23 16:46:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dbebec5c14ac530065a1a5547cdcc345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DB CSS Override - Deployment</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_formatter_dbebec5c14ac530065a1a5547cdcc345</sys_update_name>
+        <sys_updated_by>chourub</sys_updated_by>
+        <sys_updated_on>2018-02-23 16:46:48</sys_updated_on>
+        <table>x_dptmgr_deployment</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

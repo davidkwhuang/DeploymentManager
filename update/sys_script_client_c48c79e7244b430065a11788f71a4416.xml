@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>This client script will hide the related lists for the update set logs/preview problems and status for non update set type of deployments.</description>
+        <field>associated_deployment</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide UpdateSet List</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var type = g_form.getValue('type');
+	var updateReference = g_form.getValue('update_set_reference');
+    if (type == 'Data Load' || type == 'Manual Step' || type == '' || updateReference == "") {
+        g_form.hideRelatedLists();
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2017-12-21 11:26:41</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c48c79e7244b430065a11788f71a4416</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Hide UpdateSet List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_script_client_c48c79e7244b430065a11788f71a4416</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2017-12-27 15:13:12</sys_updated_on>
+        <table>x_dptmgr_deployment_plan</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

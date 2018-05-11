@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="signed_off_by" label="Signed Off By" language="en" table="x_dptmgr_deployment_signoff">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>signed_off_by</element>
+            <help/>
+            <hint/>
+            <label>Signed Off By</label>
+            <language>en</language>
+            <name>x_dptmgr_deployment_signoff</name>
+            <plural>Signed Off Bys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-28 17:51:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6b285775249f830065a11788f71a440f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Signed Off By</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_documentation_x_dptmgr_deployment_signoff_signed_off_by_en</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-28 17:51:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

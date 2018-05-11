@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css>h1 {
+    text-align: center;
+}
+
+body {
+    color: blue;
+}
+
+h1 {
+    color: black;
+}</css>
+        <display_field/>
+        <field_list/>
+        <filter table="x_dptmgr_deployment_signoff">associated_deployment.current_release=true^signed_off=No<item endquery="false" field="associated_deployment.current_release" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="signed_off" goto="false" newquery="false" operator="=" or="false" value="No"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>0</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">87f80e7f4fb11300f919a7d18110c7bf</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Count">1d8ad230ff223100ba13ffffffffffb9</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-07 23:52:01</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b7490e7f4fb11300f919a7d18110c7da</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Signoffs Remaining</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sp_instance_table_b7490e7f4fb11300f919a7d18110c7da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-07 23:59:02</sys_updated_on>
+        <table>x_dptmgr_deployment_signoff</table>
+        <title>Signoffs Remaining</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=b7490e7f4fb11300f919a7d18110c7da"/>
+</record_update>

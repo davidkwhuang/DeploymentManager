@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="7a943e5a24cb030065a11788f71a4487" sys_domain="global" table="x_dptmgr_deployment_plan" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-17 18:17:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e943e5a24cb030065a11788f71a4489</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment_plan" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">7a943e5a24cb030065a11788f71a4487</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">0c4ce29624cb030065a11788f71a44ea</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-17 18:17:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-28 19:32:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>754feb3d249f830065a11788f71a44ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment_plan" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">7a943e5a24cb030065a11788f71a4487</sys_ui_form>
+            <sys_ui_section caption="Instructions" display_value="Instructions" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">f14feb3d249f830065a11788f71a44a8</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-28 19:32:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-17 18:17:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7943e5a24cb030065a11788f71a448a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment_plan" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">7a943e5a24cb030065a11788f71a4487</sys_ui_form>
+            <sys_ui_section caption="Pre Deployment Notes" display_value="Pre Deployment Notes" name="x_dptmgr_deployment_plan" sys_domain="global" view="Default view">3e943e5a24cb030065a11788f71a4486</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-28 19:32:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dptmgr_deployment_plan</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-17 18:17:37</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a943e5a24cb030065a11788f71a4487</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dptmgr_deployment_plan</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7a943e5a24cb030065a11788f71a4487</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-17 18:17:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

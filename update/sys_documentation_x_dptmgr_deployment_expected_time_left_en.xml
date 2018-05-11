@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="expected_time_left" label="Expected Time Left (Mins)" language="en" table="x_dptmgr_deployment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>expected_time_left</element>
+            <help/>
+            <hint/>
+            <label>Expected Time Left (Mins)</label>
+            <language>en</language>
+            <name>x_dptmgr_deployment</name>
+            <plural>Expected Time Left (Mins)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chourub</sys_created_by>
+            <sys_created_on>2018-02-06 17:56:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>30e819b60808530065a1137d32afe105</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Expected Time Left (Mins)</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_documentation_x_dptmgr_deployment_expected_time_left_en</sys_update_name>
+            <sys_updated_by>chourub</sys_updated_by>
+            <sys_updated_on>2018-02-06 17:56:39</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

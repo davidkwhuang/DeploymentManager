@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments>This will link any update sets in the related deployment plan to the reference field on the form. This is based on looking at the task instructions and searching for the related retrieved update set.&#13;
+Note: The name of the update set in the task instruction must be identical to the updateset name or it will not find it.</comments>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Link Retrieved Update Sets</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var rec = new GlideRecord('x_dptmgr_deployment_plan');
+rec.addQuery('associated_deployment.sys_id', current.sys_id);
+rec.addEncodedQuery('type=Update Set');
+rec.query();
+var updatecount = 0;
+while (rec.next()) {
+	
+	var loc = new GlideRecord('sys_remote_update_set');
+	loc.addQuery('name', rec.task_instructions);
+	loc.query();
+	while (loc.next()) {
+		var gr = loc.sys_id;
+		rec.update_set_reference = gr;
+		rec.update();
+		updatecount++;
+		
+	}
+}
+action.setRedirectURL(current);
+gs.addInfoMessage(updatecount + " update sets have been linked in the related deployment plan");]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2017-12-19 10:25:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f6adf322483430065a11788f71a44c2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Link Retrieved Update Sets</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_action_7f6adf322483430065a11788f71a44c2</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2018-01-16 16:42:28</sys_updated_on>
+        <table>x_dptmgr_deployment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

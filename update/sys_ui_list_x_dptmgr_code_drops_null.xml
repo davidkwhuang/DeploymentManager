@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dptmgr_code_drops" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>2c442ae6248f030065a11788f71a442f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>drop_status</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>ac442ae6248f030065a11788f71a442f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>planned_drop_time</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>20442ae6248f030065a11788f71a4430</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>actual_drop_time</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>a0442ae6248f030065a11788f71a4430</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>drop_notes</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>24442ae6248f030065a11788f71a4430</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>associated_deployment</element>
+            <list_id display_value="x_dptmgr_code_drops" element="NULL" name="x_dptmgr_code_drops" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">64442ae6248f030065a11788f71a442f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_id>e044662a248f030065a11788f71a4429</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dptmgr_code_drops</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2017-12-18 11:44:41</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64442ae6248f030065a11788f71a442f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dptmgr_code_drops</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_list_x_dptmgr_code_drops_null</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2017-12-18 11:44:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>This role is for the deployment managers of the dbUnity releases. This allows them to create and maintain information regarding releases including issues tracking and updating key information.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>false</grantable>
+        <includes_roles/>
+        <name>x_dptmgr.Manager</name>
+        <suffix>Manager</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2017-12-18 10:32:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>81639aa2248f030065a11788f71a44c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dptmgr.Manager</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_user_role_81639aa2248f030065a11788f71a44c1</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2017-12-18 10:32:10</sys_updated_on>
+    </sys_user_role>
+</record_update>

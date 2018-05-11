@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Deployment Plan Signoff" max_length="40" name="x_dptmgr_deployment_plan_signoff" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Associated Deployment" max_length="32" name="associated_deployment" reference="x_dptmgr_deployment" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Module" max_length="32" name="module" reference="x_dptmgr_modules" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Signed Off" max_length="40" name="signed_off" type="choice">
+            <choice>
+                <element label="No" sequence="1" value="No"/>
+                <element label="Yes" sequence="2" value="Yes"/>
+            </choice>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Signed Off By" max_length="4000" name="signed_off_by" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <index name="index">
+            <element name="associated_deployment"/>
+        </index>
+        <index name="index2">
+            <element name="module"/>
+        </index>
+    </element>
+</database>

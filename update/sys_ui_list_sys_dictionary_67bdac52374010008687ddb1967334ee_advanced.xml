@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_dictionary" relationship="67bdac52374010008687ddb1967334ee" sys_domain="global" table="sys_update_version" version="2" view="advanced">
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_update_version</name>
+            <parent>sys_dictionary</parent>
+            <position/>
+            <relationship display_value="Versions">67bdac52374010008687ddb1967334ee</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>chourub</sys_created_by>
+            <sys_created_on>2018-02-12 09:34:06</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62ec746d80b20300cb4d22b831a1b455</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_update_version</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_list_sys_dictionary_67bdac52374010008687ddb1967334ee_advanced</sys_update_name>
+            <sys_updated_by>chourub</sys_updated_by>
+            <sys_updated_on>2018-02-12 09:34:06</sys_updated_on>
+            <sys_user display_value="">27372ca0f01a7100cb4d2dfb07dfc471</sys_user>
+            <view display_value="Advanced" name="advanced">7966be310a0a0b8c00bd504090503227</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

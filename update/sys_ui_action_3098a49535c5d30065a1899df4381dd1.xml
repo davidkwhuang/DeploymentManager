@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.state=="Dress Rehearsal"</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <name>Add All Modules to Plan Signoff</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[//This will look at the list of process modules involved and generate the same number of attendance records with only the module populated to save time.
+var grModules = new GlideRecord('x_dptmgr_modules');
+grModules.query();
+
+while (grModules.next()) {
+	
+	var gr = new GlideRecord('x_dptmgr_deployment_plan_signoff');
+	gr.initialize();
+	gr.associated_deployment = current.sys_id;
+	gr.module = grModules.getValue("sys_id");
+	gr.insert();
+	
+}
+
+action.setRedirectURL(current);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2018-03-23 15:44:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3098a49535c5d30065a1899df4381dd1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Add All Modules to Plan Signoff</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_action_3098a49535c5d30065a1899df4381dd1</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2018-03-23 16:20:23</sys_updated_on>
+        <table>x_dptmgr_deployment</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_dptmgr_deployment_plan</collection>
+        <condition table="x_dptmgr_deployment_plan">task_statusCHANGESTOComplete^type=Update Set^update_set_referenceISNOTEMPTY^engineering_contactsISNOTEMPTY^EQ<item endquery="false" field="task_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Complete"/>
+            <item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Update Set"/>
+            <item endquery="false" field="update_set_reference" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="engineering_contacts" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi,</p>
+<p><br />You are receiving this email because you are listed as an engineering contact for this deployment step.</p>
+<p>The update set: <span style="text-decoration: underline;"><strong>${update_set_reference.name}</strong></span> has been committed in production.</p>
+<p>&nbsp;</p>
+<p>Details below:</p>
+<p>State: ${update_set_reference.state}</p>
+<p>Committed: ${update_set_reference.commit_date}</p>
+<p>&nbsp;</p>
+<p>Collisions: ${update_set_reference.collisions}</p>
+<p>Inserted: ${update_set_reference.inserted}</p>
+<p>Deleted: ${update_set_reference.deleted}</p>
+<p>Updated: ${update_set_reference.updated}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>db Update set step complete</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>engineering_contacts</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${associated_deployment.release_name}: Update Set has been committed</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2017-12-27 16:13:39</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec27752124db830065a11788f71a445f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>db Update set step complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sysevent_email_action_ec27752124db830065a11788f71a445f</sys_update_name>
+        <sys_updated_by>chourub</sys_updated_by>
+        <sys_updated_on>2018-02-06 16:17:43</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
