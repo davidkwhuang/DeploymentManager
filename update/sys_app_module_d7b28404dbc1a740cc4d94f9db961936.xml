@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Deployment Manager">8ee72ed224cb030065a11788f71a4415</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Release Controls</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dptmgr_release_controls</name>
+        <order>13</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>^GROUPBYrelease_type&amp;sysparm_order=order&amp;sysparm_order_direction=asc</query>
+        <report/>
+        <roles>x_dptmgr.Manager,x_dptmgr.Reader</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2018-10-04 11:50:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7b28404dbc1a740cc4d94f9db961936</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Release Controls</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_app_module_d7b28404dbc1a740cc4d94f9db961936</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2019-01-12 06:37:06</sys_updated_on>
+        <timeline_page/>
+        <title>Release Controls</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

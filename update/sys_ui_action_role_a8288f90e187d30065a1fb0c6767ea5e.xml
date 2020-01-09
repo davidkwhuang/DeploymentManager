@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2018-06-28 10:47:02</sys_created_on>
+        <sys_id>a8288f90e187d30065a1fb0c6767ea5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sign Off Engineering Validation.x_dptmgr.Manager</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_ui_action display_value="Sign Off Engineering Validation">6a2c7380e14f930065a1fb0c6767eac9</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_a8288f90e187d30065a1fb0c6767ea5e</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2018-06-28 10:47:02</sys_updated_on>
+        <sys_user_role display_value="x_dptmgr.Manager" name="x_dptmgr.Manager">81639aa2248f030065a11788f71a44c1</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

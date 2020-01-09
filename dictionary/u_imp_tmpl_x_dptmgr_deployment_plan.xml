@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Dptmgr Deployment Plan" max_length="40" name="u_imp_tmpl_x_dptmgr_deployment_plan" type="collection">
+        <element attributes="import_attribute_name=Associated Deployment,edge_encryption_enabled=true" label="Associated Deployment" max_length="32" name="u_associated_deployment" type="string"/>
+        <element attributes="import_attribute_name=Deployment Type,edge_encryption_enabled=true" label="Deployment Type" max_length="40" name="u_deployment_type" type="string"/>
+        <element attributes="import_attribute_name=Dress Rehearsal Notes,edge_encryption_enabled=true" label="Dress Rehearsal Notes" max_length="10000" name="u_dress_rehearsal_notes" type="string"/>
+        <element attributes="import_attribute_name=Dress Rehearsal Time (mins),edge_encryption_enabled=true" label="Dress Rehearsal Time (mins)" max_length="15" name="u_dress_rehearsal_time__mins_" type="string"/>
+        <element attributes="import_attribute_name=End Time,edge_encryption_enabled=true" label="End Time" max_length="40" name="u_end_time" type="string"/>
+        <element attributes="import_attribute_name=Module,edge_encryption_enabled=true" label="Module" max_length="32" name="u_module" type="string"/>
+        <element attributes="import_attribute_name=Production Notes,edge_encryption_enabled=true" label="Production Notes" max_length="10000" name="u_production_notes" type="string"/>
+        <element attributes="import_attribute_name=Retrieved Update Set Reference,edge_encryption_enabled=true" label="Retrieved Update Set Reference" max_length="32" name="u_retrieved_up__set_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sequence" label="Sequence" max_length="10" name="u_sequence" type="integer"/>
+        <element attributes="import_attribute_name=Start Time,edge_encryption_enabled=true" label="Start Time" max_length="40" name="u_start_time" type="string"/>
+        <element attributes="import_attribute_name=Task Instructions,edge_encryption_enabled=true" label="Task Instructions" max_length="100000" name="u_task_instructions" type="string"/>
+        <element attributes="import_attribute_name=Task Status,edge_encryption_enabled=true" label="Task Status" max_length="40" name="u_task_status" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=UAT Notes,edge_encryption_enabled=true" label="UAT Notes" max_length="10000" name="u_uat_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=UAT Time (mins)" label="UAT Time (mins)" max_length="15" name="u_uat_time__mins_" type="integer"/>
+        <element attributes="import_attribute_name=Weight,edge_encryption_enabled=true" label="Weight" max_length="15" name="u_weight" type="string"/>
+    </element>
+</database>

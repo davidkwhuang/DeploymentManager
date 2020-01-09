@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_relationship">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
     <sys_relationship action="INSERT_OR_UPDATE">
         <advanced>false</advanced>
         <apply_to/>
@@ -15,13 +14,11 @@
         <sys_class_name>sys_relationship</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2017-12-17 22:43:49</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>3231f3d6240f030065a11788f71a44cc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Update Set Logs</sys_name>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_relationship_3231f3d6240f030065a11788f71a44cc</sys_update_name>
         <sys_updated_by>huandavk</sys_updated_by>

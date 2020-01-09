@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="M2m Requested It Deployments" max_length="40" name="x_dptmgr_m2m_requested_it_deployments" type="collection">
-        <element label="Deployment" max_length="32" name="deployment" reference="x_dptmgr_deployment" type="reference"/>
-        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Deployment" max_length="32" name="deployment" reference="x_dptmgr_deployment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
         <index name="index">
             <element name="deployment"/>
         </index>

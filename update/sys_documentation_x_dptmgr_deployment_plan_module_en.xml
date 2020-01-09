@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="module" label="Module" language="en" table="x_dptmgr_deployment_plan">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>module</element>
@@ -12,13 +11,11 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2017-12-17 18:08:03</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
             <sys_id>a2623e1a24cb030065a11788f71a44e3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Module</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_documentation_x_dptmgr_deployment_plan_module_en</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>

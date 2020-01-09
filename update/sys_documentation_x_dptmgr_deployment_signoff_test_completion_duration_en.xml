@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="test_completion_duration" label="Test Completion Duration" language="en" table="x_dptmgr_deployment_signoff">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>test_completion_duration</element>
+            <help/>
+            <hint/>
+            <label>Test Completion Duration</label>
+            <language>en</language>
+            <name>x_dptmgr_deployment_signoff</name>
+            <plural>Test Completion Durations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-05-22 13:17:55</sys_created_on>
+            <sys_id>d454bc42db2d73404cfd96aadb961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Completion Duration</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_documentation_x_dptmgr_deployment_signoff_test_completion_duration_en</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-06-22 06:52:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

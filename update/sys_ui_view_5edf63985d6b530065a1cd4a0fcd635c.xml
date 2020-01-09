@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,RPT123e1daf509fd70065a173e7dd4af9a3</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>harry.flude@db.com</sys_created_by>
+        <sys_created_on>2018-07-23 10:11:08</sys_created_on>
+        <sys_id>5edf63985d6b530065a1cd4a0fcd635c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,rpt123e1daf509fd70065a173e7dd4af9a3</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_view_5edf63985d6b530065a1cd4a0fcd635c</sys_update_name>
+        <sys_updated_by>harry.flude@db.com</sys_updated_by>
+        <sys_updated_on>2018-07-23 10:11:08</sys_updated_on>
+        <title>Sys_popup,rpt123e1daf509fd70065a173e7dd4af9a3</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

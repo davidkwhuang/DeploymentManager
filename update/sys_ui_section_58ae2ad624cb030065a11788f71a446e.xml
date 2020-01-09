@@ -1,98 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_ui_section caption="SIT &amp; UAT" section_id="58ae2ad624cb030065a11788f71a446e" sys_domain="global" table="x_dptmgr_deployment" version="3" view="">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Pre-Release Information" section_id="58ae2ad624cb030065a11788f71a446e" sys_domain="global" table="x_dptmgr_deployment" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sit_start</element>
+            <element>uat_start</element>
             <position>0</position>
-            <sys_created_by>chourub</sys_created_by>
-            <sys_created_on>2018-02-06 15:00:47</sys_created_on>
-            <sys_id>20a0bcb60884530065a1137d32afe139</sys_id>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-06-26 13:55:21</sys_created_on>
+            <sys_id>93306df7e1fe530065a1fb0c6767ea8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:47</sys_updated_on>
+            <sys_ui_section caption="Pre-Release Information" display_value="Pre-Release Information" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-06-26 13:55:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sit_end</element>
+            <element>uat_end</element>
             <position>1</position>
-            <sys_created_by>chourub</sys_created_by>
-            <sys_created_on>2018-02-06 15:00:47</sys_created_on>
-            <sys_id>a0a0bcb60884530065a1137d32afe139</sys_id>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-06-26 13:55:21</sys_created_on>
+            <sys_id>17306df7e1fe530065a1fb0c6767ea8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:47</sys_updated_on>
+            <sys_ui_section caption="Pre-Release Information" display_value="Pre-Release Information" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-06-26 13:55:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>chourub</sys_created_by>
-            <sys_created_on>2018-02-06 15:00:47</sys_created_on>
-            <sys_id>24a0bcb60884530065a1137d32afe139</sys_id>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-06-26 13:55:21</sys_created_on>
+            <sys_id>97306df7e1fe530065a1fb0c6767ea8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:47</sys_updated_on>
+            <sys_ui_section caption="Pre-Release Information" display_value="Pre-Release Information" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-06-26 13:55:21</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>uat_start</element>
-            <position>3</position>
-            <sys_created_by>chourub</sys_created_by>
-            <sys_created_on>2018-02-06 15:00:47</sys_created_on>
-            <sys_id>a4a0bcb60884530065a1137d32afe139</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>uat_end</element>
-            <position>4</position>
-            <sys_created_by>chourub</sys_created_by>
-            <sys_created_on>2018-02-06 15:00:47</sys_created_on>
-            <sys_id>28a0bcb60884530065a1137d32afe139</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:47</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>SIT &amp; UAT</caption>
+            <caption>Pre-Release Information</caption>
             <header>false</header>
             <name>x_dptmgr_deployment</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2017-12-17 17:51:31</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>58ae2ad624cb030065a11788f71a446e</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>SIT &amp; UAT</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Pre-Release Information</sys_name>
             <sys_overrides/>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_section_58ae2ad624cb030065a11788f71a446e</sys_update_name>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:44</sys_updated_on>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-06-26 13:55:19</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

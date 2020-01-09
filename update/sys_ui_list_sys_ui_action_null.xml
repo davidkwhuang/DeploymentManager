@@ -1,155 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_ui_action" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>name</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_name</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>0e4d7e444f421300f919a7d18110c7cd</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>f08e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>action_name</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_class_name</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>064d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>348e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>active</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_update_name</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>864d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>748e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>client</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_scope</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>0a4d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>b48e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>comments</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_policy</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>8a4d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>f48e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>condition</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>0e4d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>388e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>form_button</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
+            <element>sys_updated_by</element>
+            <list_id display_value="sys_metadata" element="NULL" name="sys_metadata" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bc8e8f32d723210092610eca5e610302</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>8e4d7e444f421300f919a7d18110c7ce</sys_id>
+            <sys_created_on>2014-10-08 04:52:14</sys_created_on>
+            <sys_id>788e8f32d723210092610eca5e610303</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>form_context_menu</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>7</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>024d7e444f421300f919a7d18110c7cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>form_link</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>8</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>824d7e444f421300f919a7d18110c7cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>hint</element>
-            <list_id display_value="sys_ui_action" element="NULL" name="sys_ui_action" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">024d7e444f421300f919a7d18110c7cd</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>9</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-08 22:17:34</sys_created_on>
-            <sys_id>064d7e444f421300f919a7d18110c7cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:17:34</sys_updated_on>
+            <sys_updated_on>2014-10-08 04:52:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -164,7 +118,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>chourub</sys_created_by>
             <sys_created_on>2018-01-08 12:04:01</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a1b5ce220a00064123569a49e7214325</sys_id>
@@ -172,7 +125,6 @@
             <sys_name>sys_ui_action</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_list_sys_ui_action_null</sys_update_name>
             <sys_updated_by>chourub</sys_updated_by>

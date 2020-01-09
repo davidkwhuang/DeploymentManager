@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="deployment_day_managers" label="Deployment Day Managers" language="en" table="x_dptmgr_deployment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>deployment_day_managers</element>
+            <help/>
+            <hint/>
+            <label>Deployment Day Managers</label>
+            <language>en</language>
+            <name>x_dptmgr_deployment</name>
+            <plural>Deployment Day Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-05-22 09:20:05</sys_created_on>
+            <sys_id>94ed7ffddb2573404cfd96aadb961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Deployment Day Managers</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_documentation_x_dptmgr_deployment_deployment_day_managers_en</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-06-22 06:52:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>Used by the Deployment Day Dashboard</description>
+        <direct>true</direct>
+        <endpoint>x_dptmgr_DM_Estimated_time_of_completion.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+ <g:evaluate>  
+		var color = "black";
+		var deploy_plan;
+		var status = "";
+		
+		var deployment = new GlideRecord('x_dptmgr_deployment');
+		deployment.addQuery('current_release', true);
+		deployment.query();
+
+		if( deployment.next() ) {
+			var gdt = new GlideDateTime(deployment.estimated_deployment_completion);
+			
+			var deployment_plan = new GlideRecord( 'x_dptmgr_deployment_plan' );
+			deployment_plan.addQuery( 'associated_deployment.current_release', true );
+			deployment_plan.addQuery( 'task_status', 'Ready' );
+			deployment_plan.query();
+			
+			if( deployment_plan.hasNext() ) {
+				status = "Estimated Deployment Completion Time";
+				deploy_plan = gdt.getDisplayValue();
+				
+				if ((!deployment.estimated_deployment_completion.nil())) { 
+					var depTime = (new GlideDateTime(deployment.getValue('estimated_deployment_completion'))).getNumericValue(); 
+					var endTime = (new GlideDateTime(deployment.getValue('planned_end_time'))).getNumericValue(); 
+					if (depTime > endTime) {
+						color = "red"; 
+					}
+				}
+			}
+			else {
+				status = "Deployment Completed at:";
+				color = "green";
+	 
+				var final_step = new GlideRecord( 'x_dptmgr_deployment_plan' );
+				final_step.addQuery( 'associated_deployment.current_release', true );
+				final_step.addQuery( 'task_status', 'Complete' );
+	 			final_step.orderByDesc( 'sequence' );
+				final_step.query();
+	 
+				if( final_step.next() ) {
+					var endTime = new GlideDateTime(final_step.end_time);
+					deploy_plan = endTime.getDisplayValue();
+				}
+			}
+		}
+</g:evaluate>
+	<j:set var="jvar_deploy_plan" value="${deploy_plan}" />
+	<j:set var="jvar_color" value="${color}" />
+	<j:set var="jvar_status" value="${status}" />
+	
+    <div style="overflow: hidden;">
+        <table class="drag_section_header" style="width: 100%;">
+            <tbody>
+                <tr>
+                    <td class="widget-indicator" style="display: none;">
+                        <span class="icon-filter" title="Follow interactive filter"></span>
+                    </td>
+                    <td class="widget-indicator" id="real-time-indicator-com.glide.ui.portal.RenderReport_e2bb3917-6b08-4cae-8eb7-9de4ac6418d7" style="display: none;">
+                        <span class="icon-activity-circle" title="Real-time"></span>
+                    </td>
+                    <td style="display: none; top: 0px; left: 0px; vertical-align: top; white-space: nowrap;"></td>
+                    <td class="drag_section_debug" id="com.glide.ui.portal.RenderReport_e2bb3917-6b08-4cae-8eb7-9de4ac6418d7_debug"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="header_decorations" style="top: 5px; right: 5px; vertical-align: top; white-space: nowrap; text-align: right; position: absolute; background: white; z-index: 1025;"></div>
+        <div id="body_com.glide.ui.portal.RenderReport_e2bb3917-6b08-4cae-8eb7-9de4ac6418d7" class="widget_body" style="overflow: auto;">
+            <span style="display: none;">IE BUMPER</span>
+            <div class="report_content" id="report-container-de0ae416e18adb0065a1f72aa70d73f7-64093e0b79d6df0065a1e3fe75990808">
+                <div class="gauge-size-handle report_breadcrumbs"></div>
+                <div class="report-message gauge-size-handle" id="msg-container-de0ae416e18adb0065a1f72aa70d73f7-64093e0b79d6df0065a1e3fe75990808"></div>
+                <div class="chart-container" id="chart-container-de0ae416e18adb0065a1f72aa70d73f7-64093e0b79d6df0065a1e3fe75990808" style="margin: 10px;">
+				<div class="single-score">
+					<j:if test="${jvar_status == 'Deployment Completed at:'}">
+						<span title="" data-container="body" data-placement="bottom" data-original-title="Total number of records is: 1" style="font-size: 32px;color:black">${jvar_status}</span>
+					</j:if>
+					<span title="" data-container="body" data-placement="bottom" data-original-title="Total number of records is: 1" style="font-size: 40px;color:${jvar_color}">${jvar_deploy_plan}</span>
+				</div>
+                </div>
+            </div>
+            <div style="border:none; visibility:hidden">
+                <style>
+					.widget-indicator {
+						display: none;
+						line-height:1.6;
+					}
+					.widget-indicator.active {
+						display:table-cell !important;
+						padding:5px 0 5px 5px
+					}
+					.widget-indicator span {
+						color: #278efc;
+					}
+				</style>
+				
+				<j:if test="${jvar_status == 'Deployment Completed at:'}">
+					<renderpreference name="title" style="display: none;" value=""></renderpreference>
+				</j:if>
+				<j:if test="${jvar_status == 'Estimated Deployment Completion Time'}">
+					<renderpreference name="title" style="display: none;" value="${jvar_status}"></renderpreference>
+				</j:if>
+            </div>
+            <div id="overlay" class="home_loading_overlay" style="display: none;">
+                <div class="home_loading_container">
+                    <div class="home_loading_indicator icon-loading"></div>
+                    <h1 class="home_loading_message"></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</j:jelly>]]></html>
+        <name>DM_Estimated_time_of_completion</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>chourub</sys_created_by>
+        <sys_created_on>2018-06-18 15:44:02</sys_created_on>
+        <sys_id>86fbec91c1f2130065a1b070a313e2ab</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>DM_Estimated_time_of_completion</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_ui_page_86fbec91c1f2130065a1b070a313e2ab</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2019-03-23 08:32:28</sys_updated_on>
+    </sys_ui_page>
+</record_update>

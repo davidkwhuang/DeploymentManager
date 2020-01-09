@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="email_sent" label="Instruction Email Sent" language="en" table="x_dptmgr_deployment_signoff">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>email_sent</element>
+            <help/>
+            <hint/>
+            <label>Instruction Email Sent</label>
+            <language>en</language>
+            <name>x_dptmgr_deployment_signoff</name>
+            <plural>Instruction Email Sents</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-05-02 10:48:40</sys_created_on>
+            <sys_id>075299a7db8d738caf2396aadb961915</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Instruction Email Sent</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_documentation_x_dptmgr_deployment_signoff_email_sent_en</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-06-22 06:52:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

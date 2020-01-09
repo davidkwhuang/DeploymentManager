@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="">fcbdd239db413300699a96aadb9619f2</category>
+        <collection>x_dptmgr_deployment_signoff</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>x_dptmgr.engineering.instructions</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img src="itsmtransform.png" alt="" width="700" height="170" /></p>
+<p><span style="font-size: 12pt;"><strong>Dear ${signoff_module.engineering_contacts},</strong></span></p>
+<p style="text-align: start;"><span style="font-size: 11pt;"><span style="color: #666666;">You have been listed as a </span><strong><span style="color: #666666;">key</span></strong><span style="color: #666666;">&nbsp;<span style="text-decoration: underline;"><strong>Engineering Validation</strong></span> sign-off owner for:&nbsp;</span><strong><span style="color: #666666;">${signoff_module}</span></strong></span></p>
+<p><span style="color: #666666; font-size: 11pt;">Please follow the steps below to ensure your part of the testing process is signed off correctly.</span></p>
+<p>&nbsp;</p>
+<p><strong style="font-size: 16px;"><span style="color: navy;">1. Open this&nbsp;<a title="LINK" href="https://dbunity.service-now.com/x_dptmgr_deployment_signoff_list.do?sysparm_query=associated_deployment.current_release%3Dtrue%5Esignoff_module.key_process_ownersDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EORsignoff_module.engineering_contactsDYNAMIC90d1921e5f510100a9ad2572f2b477fe">LINK</a>&nbsp;to access&nbsp;your list of sign-offs specific to you to action.</span></strong></p>
+<p style="text-align: start;">&nbsp;</p>
+<p style="text-align: start;">Or Copy/Paste the below URL in your browser.</p>
+<p style="text-align: start;"><a href="https://dbunity.service-now.com/x_dptmgr_deployment_signoff_list.do?sysparm_query=associated_deployment.current_release%3Dtrue%5Esignoff_module.key_process_ownersDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EORsignoff_module.engineering_contactsDYNAMIC90d1921e5f510100a9ad2572f2b477fe">https://dbunity.service-now.com/x_dptmgr_deployment_signoff_list.do?sysparm_query=associated_deployment.current_release%3Dtrue%5Esignoff_module.key_process_ownersDYNAMIC90d1921e5f510100a9ad2572f2b477fe%5EORsignoff_module.engineering_contactsDYNAMIC90d1921e5f510100a9ad2572f2b477fe</a>&nbsp;</p>
+<p style="text-align: start;">&nbsp;</p>
+<p style="text-align: start;">&nbsp;</p>
+<p><span style="font-size: 12pt;"><strong><span style="color: navy;">2.</span> <u><span style="color: navy;">SIGN-OFF</span></u></strong><strong><span style="color: navy;">&nbsp;Engineering Validation</span></strong></span></p>
+<p><span style="font-size: 10.0pt; color: #666666;">When you are happy to sign-off, simply click </span><strong><span style="color: #666666;">Sign Off Module</span></strong><span style="font-size: 10.0pt; color: #666666;"> and it will auto-populate the required fields to indicate to us you have given sign-off.</span></p>
+<p><img src="signoff.png" alt="" width="521" height="52" /></p>
+<p style="text-align: start;"><span style="font-size: 12pt;"><strong><span style="color: black;"><span style="text-decoration: underline;">NOTE: If there are immediate issues that need to be addressed, please join the organised conference bridge dedicated to this release.</span>&nbsp;</span></strong></span></p>
+<p><span style="font-size: 10.0pt; color: #666666;">${associated_deployment.key_contacts}</span></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Deployment Instructions - Engineering</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>signoff_module.engineering_contacts</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>PLEASE READ - Engineering Validation Signoff Instructions - ${signoff_module}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2018-06-28 10:55:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>545a8f14e187d30065a1fb0c6767ea14</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Deployment Instructions - Engineering</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sysevent_email_action_545a8f14e187d30065a1fb0c6767ea14</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2019-09-14 09:03:40</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

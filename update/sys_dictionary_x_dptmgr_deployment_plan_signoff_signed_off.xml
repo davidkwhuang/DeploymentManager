@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="signed_off" table="x_dptmgr_deployment_plan_signoff">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -31,6 +30,8 @@
         <element>signed_off</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -52,13 +53,11 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2018-03-23 15:08:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>55d1e05d3585d30065a1899df4381d93</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Signed Off</sys_name>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_dictionary_x_dptmgr_deployment_plan_signoff_signed_off</sys_update_name>
         <sys_updated_by>huandavk</sys_updated_by>

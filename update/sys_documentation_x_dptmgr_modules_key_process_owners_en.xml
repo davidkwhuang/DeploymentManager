@@ -1,28 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
-    <sys_documentation element="key_process_owners" label="Key Signoff Users" language="en" table="x_dptmgr_modules">
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="key_process_owners" label="Key Signoff Owners" language="en" table="x_dptmgr_modules">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>key_process_owners</element>
             <help/>
             <hint/>
-            <label>Key Signoff Users</label>
+            <label>Key Signoff Owners</label>
             <language>en</language>
             <name>x_dptmgr_modules</name>
-            <plural>Key Signoff Users</plural>
+            <plural>Key Signoff Owners</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2018-01-10 16:17:33</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_id>314f3dca24a7470065a11788f71a4455</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>Key Signoff Users</sys_name>
+            <sys_name>Key Signoff Owners</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_documentation_x_dptmgr_modules_key_process_owners_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-08 22:16:06</sys_updated_on>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-05-15 08:16:18</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

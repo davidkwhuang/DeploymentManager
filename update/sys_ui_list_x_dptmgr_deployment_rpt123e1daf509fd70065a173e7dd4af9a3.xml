@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dptmgr_deployment" version="2" view="RPT123e1daf509fd70065a173e7dd4af9a3">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>release_name</element>
+            <list_id display_value="x_dptmgr_deployment" element="NULL" name="x_dptmgr_deployment" parent="NULL" relationship="NULL" sys_domain="global" view="45e59398db6d001073ec70e23996198b">04068570edc8e700cb4dc2c74906ddc4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-08-18 07:37:26</sys_created_on>
+            <sys_id>40068570edc8e700cb4dc2c74906ddc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-08-18 07:37:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>full_release_completion</element>
+            <list_id display_value="x_dptmgr_deployment" element="NULL" name="x_dptmgr_deployment" parent="NULL" relationship="NULL" sys_domain="global" view="45e59398db6d001073ec70e23996198b">04068570edc8e700cb4dc2c74906ddc4</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-08-18 07:37:26</sys_created_on>
+            <sys_id>08068570edc8e700cb4dc2c74906ddc5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-08-18 07:37:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dptmgr_deployment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-08-18 07:37:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04068570edc8e700cb4dc2c74906ddc4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dptmgr_deployment</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_list_x_dptmgr_deployment_RPT123e1daf509fd70065a173e7dd4af9a3</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-08-18 07:37:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt123e1daf509fd70065a173e7dd4af9a3" name="RPT123e1daf509fd70065a173e7dd4af9a3">45e59398db6d001073ec70e23996198b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

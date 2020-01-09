@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>false</applies_extended>
@@ -7,6 +6,7 @@
         <description>This client script will hide the related lists for the update set logs/preview problems and status for non update set type of deployments.</description>
         <field>associated_deployment</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>Hide UpdateSet List</name>
         <order/>
@@ -21,7 +21,6 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2017-12-21 11:26:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c48c79e7244b430065a11788f71a4416</sys_id>
@@ -30,7 +29,6 @@
         <sys_overrides/>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_script_client_c48c79e7244b430065a11788f71a4416</sys_update_name>
         <sys_updated_by>huandavk</sys_updated_by>

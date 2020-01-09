@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_gauge_counts">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge_counts">
     <sys_gauge_counts action="INSERT_OR_UPDATE">
         <gauge_id display_value="Deployment Breakdown">19256f79249f830065a11788f71a44ce</gauge_id>
         <image/>
@@ -7,7 +6,7 @@
         <omit_line>false</omit_line>
         <order>300</order>
         <override_style/>
-        <query table="x_dptmgr_deployment_plan">type=Data Load^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Data Load"/>
+        <query table="x_dptmgr_deployment_plan">type=Data Load^EQ<item display_value="Data Load" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="Data Load"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </query>
         <script/>
@@ -15,13 +14,11 @@
         <sys_class_name>sys_gauge_counts</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2017-12-28 18:57:30</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>cf1763b9249f830065a11788f71a44be</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Number of Data Loads</sys_name>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_gauge_counts_cf1763b9249f830065a11788f71a44be</sys_update_name>
         <sys_updated_by>huandavk</sys_updated_by>

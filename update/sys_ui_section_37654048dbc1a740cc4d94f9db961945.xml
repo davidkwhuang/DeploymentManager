@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="37654048dbc1a740cc4d94f9db961945" sys_domain="global" table="x_dptmgr_release_controls" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity</element>
+            <position>0</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>c9360488dbc1a740cc4d94f9db9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>days</element>
+            <position>1</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>4d360488dbc1a740cc4d94f9db9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>cd360488dbc1a740cc4d94f9db9619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>release_type</element>
+            <position>3</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>41360488dbc1a740cc4d94f9db9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>4</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>c1360488dbc1a740cc4d94f9db9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>45360488dbc1a740cc4d94f9db9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supporting_information</element>
+            <position>6</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:06:03</sys_created_on>
+            <sys_id>c5360488dbc1a740cc4d94f9db9619c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_release_controls" sys_domain="global" view="Default view">37654048dbc1a740cc4d94f9db961945</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-04 12:06:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_dptmgr_release_controls</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:02:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37654048dbc1a740cc4d94f9db961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dptmgr_release_controls</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_ui_section_37654048dbc1a740cc4d94f9db961945</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:16</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

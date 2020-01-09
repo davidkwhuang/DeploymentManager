@@ -1,41 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Deployment Plan" max_length="40" name="x_dptmgr_deployment_plan" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Associated Deployment" mandatory="true" max_length="32" name="associated_deployment" reference="x_dptmgr_deployment" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Deployment Type" max_length="40" name="deployment_type" type="choice">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Associated Deployment" mandatory="true" max_length="32" name="associated_deployment" reference="x_dptmgr_deployment" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Deployment Type" max_length="40" name="deployment_type" type="choice">
             <choice>
-                <element label="Core Deployment" sequence="1" value="Core Deployment"/>
-                <element label="Pre-Deployment" sequence="2" value="Pre-Deployment"/>
-                <element label="Post Deployment" sequence="3" value="Post Deployment"/>
+                <element inactive_on_update="false" label="Core Deployment" sequence="1" value="Core Deployment"/>
+                <element inactive_on_update="false" label="Pre-Deployment" sequence="2" value="Pre-Deployment"/>
+                <element inactive_on_update="false" label="Post Deployment" sequence="3" value="Post Deployment"/>
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Dress Rehearsal Notes" max_length="10000" name="dress_rehearsal_notes" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Dress Rehearsal Time (mins)" max_length="40" name="dress_rehearsal_time" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Dress Rehearsal Time (mins)" max_length="40" name="dress_rehearsal_time" type="integer"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="End Time" max_length="40" name="end_time" type="glide_date_time"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Engineering Contacts" max_length="4000" name="engineering_contacts" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Module" max_length="32" name="module" reference="x_dptmgr_modules" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Engineering Contacts" max_length="4000" name="engineering_contacts" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Module" max_length="32" name="module" reference="x_dptmgr_modules" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Production Notes" max_length="10000" name="production_notes" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Sequence" max_length="10" name="sequence" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Sequence" max_length="10" name="sequence" type="integer"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Start Time" max_length="40" name="start_time" type="glide_date_time"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;var start = new GlideDateTime(current.start_time.getDisplayValue());&#13;&#10;var end = new GlideDateTime(current.end_time.getDisplayValue());&#13;&#10;var dur = new GlideDuration();&#13;&#10;dur = GlideDateTime.subtract(start, end); //the difference between start and end&#13;&#10;&#13;&#10;return dur;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Task Completion Duration" max_length="40" name="task_completion_duration" type="glide_duration" virtual="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Task Instructions" max_length="100000" name="task_instructions" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="Ready" label="Task Status" max_length="40" name="task_status" type="choice">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;var start = new GlideDateTime(current.start_time.getDisplayValue());&#13;&#10;var end = new GlideDateTime(current.end_time.getDisplayValue());&#13;&#10;var dur = new GlideDuration();&#13;&#10;dur = GlideDateTime.subtract(start, end); //the difference between start and end&#13;&#10;&#13;&#10;return dur;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Task Completion Duration" max_length="40" name="task_completion_duration" type="glide_duration" virtual="true"/>
+        <element attributes="no_truncate" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Task Instructions" max_length="100000" name="task_instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="Ready" label="Task Status" max_length="40" name="task_status" type="choice">
             <choice>
-                <element label="Ready" sequence="1" value="Ready"/>
-                <element label="Complete" sequence="2" value="Complete"/>
+                <element inactive_on_update="false" label="Ready" sequence="1" value="Ready"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="Complete"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" display="true" label="Type" max_length="40" name="type" type="choice">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" display="true" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element label="Data Load" value="Data Load"/>
-                <element label="Manual Step" value="Manual Step"/>
-                <element label="Update Set" value="Update Set"/>
+                <element inactive_on_update="false" label="Data Load" value="Data Load"/>
+                <element inactive_on_update="false" label="Manual Step" value="Manual Step"/>
+                <element inactive_on_update="false" label="Update Set" value="Update Set"/>
             </choice>
         </element>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="UAT Notes" max_length="10000" name="uat_notes" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="UAT Time (mins)" max_length="40" name="uat_time" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Retrieved Update Set Reference" max_length="32" name="update_set_reference" reference="sys_remote_update_set" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Weight" max_length="40" name="weight" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="UAT Time (mins)" max_length="40" name="uat_time" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Retrieved Update Set Reference" max_length="32" name="update_set_reference" reference="sys_remote_update_set" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Weight" max_length="40" name="weight" type="integer"/>
         <index name="index">
             <element name="associated_deployment"/>
         </index>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="82227a1a24cb030065a11788f71a44ef" sys_domain="global" table="x_dptmgr_modules" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>module_name</element>
@@ -71,6 +70,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>5</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-09-28 08:31:10</sys_created_on>
+            <sys_id>3a7b908adb3c6780563b94f9db96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_modules" sys_domain="global" view="Default view">82227a1a24cb030065a11788f71a44ef</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-09-28 08:31:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prefix</element>
+            <position>6</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-06-18 11:36:17</sys_created_on>
+            <sys_id>cbff1b2adb82b7c04cfd96aadb96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_modules" sys_domain="global" view="Default view">82227a1a24cb030065a11788f71a44ef</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-06-18 11:36:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -79,7 +106,6 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2017-12-17 18:06:55</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>82227a1a24cb030065a11788f71a44ef</sys_id>
@@ -88,7 +114,6 @@
             <sys_overrides/>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_section_82227a1a24cb030065a11788f71a44ef</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>

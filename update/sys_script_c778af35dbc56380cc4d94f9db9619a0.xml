@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_dptmgr_deployment</collection>
+        <condition/>
+        <description>This will display the current status</description>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>DB Display Current Release Status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var currentdate = new GlideDate();
+
+	//Displays the current release phase we are in based on the release schedule and todays date
+	var gr = new GlideRecord('x_dptmgr_release_schedule');
+	gr.addQuery('deployment_reference', current.sys_id);
+	gr.addQuery('date', '<=', currentdate);
+	gr.orderByDesc('date');
+	gr.setLimit(1);
+	gr.query();
+
+	if (gr.next()) {
+		gs.addInfoMessage("This Release is currently in: " + gr.activity + " - " + gr.day_and_month);
+	}
+
+	//Displays the next upcoming release phase based on the release schedule
+	var gr1 = new GlideRecord('x_dptmgr_release_schedule');
+	gr1.addQuery('deployment_reference', current.sys_id);
+	gr1.addQuery('date', '>', currentdate);
+	gr1.orderBy('date');
+	gr1.setLimit(1);
+	gr1.query();
+
+	if (gr1.next()) {
+		gs.addInfoMessage("The Next Upcoming Release Phase is: " + gr1.activity + " - " + gr1.day_and_month);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>huandavk</sys_created_by>
+        <sys_created_on>2018-10-10 15:04:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c778af35dbc56380cc4d94f9db9619a0</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>DB Display Current Release Status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_script_c778af35dbc56380cc4d94f9db9619a0</sys_update_name>
+        <sys_updated_by>huandavk</sys_updated_by>
+        <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c778af35dbc56380cc4d94f9db9619a0"/>
+</record_update>

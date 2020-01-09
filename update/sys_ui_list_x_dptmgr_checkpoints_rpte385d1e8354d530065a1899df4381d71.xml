@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dptmgr_checkpoints" version="2" view="RPTe385d1e8354d530065a1899df4381d71">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>checkpoint_name</element>
-            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="a785d1e8354d530065a1899df4381d74">8ee5d5e8354d530065a1899df4381d54</list_id>
+            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="01e59398db6d001073ec70e239961916">8ee5d5e8354d530065a1899df4381d54</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>checkpoint_time</element>
-            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="a785d1e8354d530065a1899df4381d74">8ee5d5e8354d530065a1899df4381d54</list_id>
+            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="01e59398db6d001073ec70e239961916">8ee5d5e8354d530065a1899df4381d54</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>notes</element>
-            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="a785d1e8354d530065a1899df4381d74">8ee5d5e8354d530065a1899df4381d54</list_id>
+            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="01e59398db6d001073ec70e239961916">8ee5d5e8354d530065a1899df4381d54</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>process_modules_involved</element>
-            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="a785d1e8354d530065a1899df4381d74">8ee5d5e8354d530065a1899df4381d54</list_id>
+            <list_id display_value="x_dptmgr_checkpoints" element="NULL" name="x_dptmgr_checkpoints" parent="NULL" relationship="NULL" sys_domain="global" view="01e59398db6d001073ec70e239961916">8ee5d5e8354d530065a1899df4381d54</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -74,7 +73,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2018-03-21 11:00:05</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8ee5d5e8354d530065a1899df4381d54</sys_id>
@@ -82,13 +80,12 @@
             <sys_name>x_dptmgr_checkpoints</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_list_x_dptmgr_checkpoints_RPTe385d1e8354d530065a1899df4381d71</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>
             <sys_updated_on>2018-03-21 11:00:05</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpte385d1e8354d530065a1899df4381d71" name="RPTe385d1e8354d530065a1899df4381d71">a785d1e8354d530065a1899df4381d74</view>
+            <view display_value="Rpte385d1e8354d530065a1899df4381d71" name="RPTe385d1e8354d530065a1899df4381d71">01e59398db6d001073ec70e239961916</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

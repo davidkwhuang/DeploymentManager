@@ -1,91 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_email_canned_message">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_canned_message">
     <sys_email_canned_message action="INSERT_OR_UPDATE">
         <active>true</active>
-        <body><![CDATA[<html xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset&#61;us-ascii" /><meta name="Generator" content="Microsoft Word 15 (filtered medium)" /><style><!--
-/* Font Definitions */
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-/* Style Definitions */
-p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-fareast-language:EN-US;}
-a:link, span.MsoHyperlink
-	{mso-style-priority:99;
-	color:#0563C1;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{mso-style-priority:99;
-	color:#954F72;
-	text-decoration:underline;}
-span.EmailStyle17
-	{mso-style-type:personal-compose;
-	font-family:"Calibri",sans-serif;
-	color:windowtext;}
-.MsoChpDefault
-	{mso-style-type:export-only;
-	font-family:"Calibri",sans-serif;
-	mso-fareast-language:EN-US;}
-@page WordSection1
-	{size:612.0pt 792.0pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
-div.WordSection1
-	{page:WordSection1;}
---></style></head><body lang="EN-GB">
-
-<div class="WordSection1">
-<p class="MsoNormal">Good Morning Colleagues</p>
-<p class="MsoNormal"> </p>
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" style="width:431.0pt;margin-left:.1pt;border-collapse:collapse"><tbody><tr style="height:16.5pt"><td width="575" colspan="2" valign="top" style="width:431.0pt;border:solid #7BA0CD 1.0pt;background:#4F81BD;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:white;mso-fareast-language:EN-GB">ServiceNow Cutover Deployment Status Communication</span></b></p>
-</td></tr><tr style="height:16.5pt"><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Communication Ref</span></b></p>
-</td><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"></span></p>
-</td></tr><tr style="height:16.5pt"><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Date and Time</span></b></p>
-</td><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"></span></p>
-</td></tr><tr style="height:16.5pt"><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Status</span></b></p>
-</td><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">
-</span></p>
-</td></tr><tr style="height:16.5pt"><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Tolerance</span></b></p>
-</td><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Edit This</span></p>
-</td></tr><tr style="height:16.5pt"><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Update</span></b></p>
-</td><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt">
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"></span></p>
-<p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Next Update XXX GMT</span></p>
-</td></tr></tbody></table>
-
-</div></body></html>
-]]></body>
+        <body><![CDATA[<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><br/><meta http-equiv="Content-Type" content="text/html; charset=us-ascii"><br/><meta name="Generator" content="Microsoft Word 15 (filtered medium)"><br/><!--[if !mso]><style>v\:* {behavior:url(#default#VML);}<br/>o\:* {behavior:url(#default#VML);}<br/>w\:* {behavior:url(#default#VML);}<br/>.shape {behavior:url(#default#VML);}<br/></style><![endif]--><style><!--<br/>/* Font Definitions */<br/>@font-face<br/>	{font-family:"Cambria Math";<br/>	panose-1:2 4 5 3 5 4 6 3 2 4;}<br/>@font-face<br/>	{font-family:Calibri;<br/>	panose-1:2 15 5 2 2 2 4 3 2 4;}<br/>/* Style Definitions */<br/>p.MsoNormal, li.MsoNormal, div.MsoNormal<br/>	{margin:0cm;<br/>	margin-bottom:.0001pt;<br/>	font-size:11.0pt;<br/>	font-family:"Calibri",sans-serif;<br/>	mso-fareast-language:EN-US;}<br/>a:link, span.MsoHyperlink<br/>	{mso-style-priority:99;<br/>	color:#0563C1;<br/>	text-decoration:underline;}<br/>a:visited, span.MsoHyperlinkFollowed<br/>	{mso-style-priority:99;<br/>	color:#954F72;<br/>	text-decoration:underline;}<br/>span.EmailStyle17<br/>	{mso-style-type:personal-compose;<br/>	font-family:"Calibri",sans-serif;<br/>	color:windowtext;}<br/>.MsoChpDefault<br/>	{mso-style-type:export-only;<br/>	font-family:"Calibri",sans-serif;<br/>	mso-fareast-language:EN-US;}<br/>@page WordSection1<br/>	{size:612.0pt 792.0pt;<br/>	margin:72.0pt 72.0pt 72.0pt 72.0pt;}<br/>div.WordSection1<br/>	{page:WordSection1;}<br/>--></style><!--[if gte mso 9]><xml><br/><o:shapedefaults v:ext="edit" spidmax="1026" /><br/></xml><![endif]--><!--[if gte mso 9]><xml><br/><o:shapelayout v:ext="edit"><br/><o:idmap v:ext="edit" data="1" /><br/></o:shapelayout></xml><![endif]--><br/></head><br/><body lang="EN-GB" link="#0563C1" vlink="#954F72"><br/><br/><div class="WordSection1"><br/><p class="MsoNormal">Good Morning Colleagues<o:p></o:p></p><br/><p class="MsoNormal"><o:p>&nbsp;</o:p></p><br/><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="0" style="width:431.0pt;margin-left:.1pt;border-collapse:collapse"><br/><tbody><br/><tr style="height:16.5pt"><br/><td width="575" colspan="2" valign="top" style="width:431.0pt;border:solid #7BA0CD 1.0pt;background:#4F81BD;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:white;mso-fareast-language:EN-GB">ServiceNow Cutover Deployment Status Communication<o:p></o:p></span></b></p><br/></td><br/></tr><br/><tr style="height:16.5pt"><br/><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Communication Ref<o:p></o:p></span></b></p><br/></td><br/><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"><o:p></o:p></span></p><br/></td><br/></tr><br/><tr style="height:16.5pt"><br/><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Date and Time<o:p></o:p></span></b></p><br/></td><br/><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"><o:p></o:p></span></p><br/></td><br/></tr><br/><tr style="height:16.5pt"><br/><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Status<o:p></o:p></span></b></p><br/></td><br/><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"><br/><o:p></o:p></span></p><br/></td><br/></tr><br/><tr style="height:16.5pt"><br/><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Tolerance<o:p></o:p></span></b></p><br/></td><br/><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Edit This<o:p></o:p></span></p><br/></td><br/></tr><br/><tr style="height:16.5pt"><br/><td width="248" valign="top" style="width:186.0pt;border-top:none;border-left:solid #7BA0CD 1.0pt;border-bottom:solid #7BA0CD 1.0pt;border-right:none;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><b><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Update<o:p></o:p></span></b></p><br/></td><br/><td width="327" valign="top" style="width:245.0pt;border-top:none;border-left:none;border-bottom:solid #7BA0CD 1.0pt;border-right:solid #7BA0CD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:16.5pt"><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB"><o:p></o:p></span></p><br/><p class="MsoNormal"><span style="font-size:12.0pt;color:black;mso-fareast-language:EN-GB">Next Update XXX GMT<o:p></o:p></span></p><br/></td><br/></tr><br/></tbody><br/></table><br/><br/></body><br/></html><br/>]]></body>
+        <condition/>
         <group display_value="">f2fbe5fb3ca531008ec5319671c4ce1a</group>
         <sys_class_name>sys_email_canned_message</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2018-01-23 13:37:06</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>16069012c4f3430065a15e01f022634f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ITSM ServiceNow RM - ReleaseName Deployment Communication HLD</sys_name>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_email_canned_message_16069012c4f3430065a15e01f022634f</sys_update_name>
-        <sys_updated_by>huandavk</sys_updated_by>
-        <sys_updated_on>2018-01-23 13:37:06</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-14 21:12:57</sys_updated_on>
+        <table/>
         <title>ITSM ServiceNow RM - ReleaseName Deployment Communication HLD</title>
         <user/>
     </sys_email_canned_message>

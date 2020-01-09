@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_application">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
     <sys_ui_application action="INSERT_OR_UPDATE">
         <active>true</active>
         <hint/>
@@ -9,7 +8,6 @@
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>huandavk</sys_created_by>
         <sys_created_on>2017-12-17 17:23:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1b38eed224cb030065a11788f71a442f</sys_id>
@@ -18,7 +16,6 @@
         <sys_overrides/>
         <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
         <sys_update_name>sys_ui_application_1b38eed224cb030065a11788f71a442f</sys_update_name>
         <sys_updated_by>huandavk</sys_updated_by>

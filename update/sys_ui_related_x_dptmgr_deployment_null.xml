@@ -1,117 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_related sys_domain="global" table="x_dptmgr_deployment" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>x_dptmgr_deployment_plan.associated_deployment</related_list>
+            <related_list>x_dptmgr_release_schedule.deployment_reference</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>9533a4dd3585d30065a1899df4381deb</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>a2a0dd71db9da3c0af2396aadb961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <filter table="REL:14a7040cdbc1a740cc4d94f9db961974">^ORDERBYorder<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="order"/>
+            </filter>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>1</position>
-            <related_list>x_dptmgr_deployment_plan_signoff.associated_deployment</related_list>
+            <related_list>REL:14a7040cdbc1a740cc4d94f9db961974</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>dd33a4dd3585d30065a1899df4381deb</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>eaa0dd71db9da3c0af2396aadb961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>2</position>
-            <related_list>x_dptmgr_code_drops.associated_deployment</related_list>
+            <related_list>x_dptmgr_deployment_signoff.associated_deployment</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>d133a4dd3585d30065a1899df4381dec</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>eea0dd71db9da3c0af2396aadb961914</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>3</position>
             <related_list>x_dptmgr_deployment_issues.associated_deployment</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>d533a4dd3585d30065a1899df4381dec</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>e2a0dd71db9da3c0af2396aadb961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>4</position>
-            <related_list>x_dptmgr_deployment_signoff.associated_deployment</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>d933a4dd3585d30065a1899df4381dec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
-            <order_by/>
-            <position>5</position>
             <related_list>x_dptmgr_checkpoints.associated_deployment</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>dd33a4dd3585d30065a1899df4381dec</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>e6a0dd71db9da3c0af2396aadb961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_dptmgr_deployment_checklist.associated_deployment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>eaa0dd71db9da3c0af2396aadb961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">2049e27314d4530065a1a5547cdcc387</list_id>
             <order_by/>
             <position>6</position>
-            <related_list>x_dptmgr_m2m_requested_it_deployments.deployment</related_list>
+            <related_list>x_dptmgr_deployment_plan.associated_deployment</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>d133a4dd3585d30065a1899df4381ded</sys_id>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
+            <sys_id>eea0dd71db9da3c0af2396aadb961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Deployment - Default view" name="x_dptmgr_deployment" related_list="NULL" sys_domain="global" view="Default view">1933a4dd3585d30065a1899df4381dea</list_id>
-            <order_by/>
-            <position>7</position>
-            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_id>d533a4dd3585d30065a1899df4381ded</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2018-10-22 14:16:25</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Deployment - Default view</calculated_name>
@@ -122,20 +108,18 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-03-23 15:14:01</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2018-10-22 14:16:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1933a4dd3585d30065a1899df4381dea</sys_id>
+            <sys_id>2049e27314d4530065a1a5547cdcc387</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Deployment - Default view</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_related_x_dptmgr_deployment_null</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-03-23 15:14:01</sys_updated_on>
+            <sys_updated_on>2019-01-12 06:37:16</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

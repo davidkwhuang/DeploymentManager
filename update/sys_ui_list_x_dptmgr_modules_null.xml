@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dptmgr_modules" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>module_name</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>key_process_owners</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>support_group</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>primary_contact</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>secondary_contact</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>engineering_contacts</element>
-            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8d85492c350d530065a1899df4381d52</list_id>
+            <list_id display_value="x_dptmgr_modules" element="NULL" name="x_dptmgr_modules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">40d69c50e5c917003788662fcef8031f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -104,15 +103,13 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2018-03-21 09:48:28</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8d85492c350d530065a1899df4381d52</sys_id>
+            <sys_id>40d69c50e5c917003788662fcef8031f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_dptmgr_modules</sys_name>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_list_x_dptmgr_modules_null</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>

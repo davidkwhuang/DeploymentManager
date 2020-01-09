@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>DM_Estimated_Deployment_Time</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles/>
+        <script><![CDATA[function sections() {
+    return {
+        'widget_name': { 'uiPageName' : 'x_dptmgr_DM_Estimated_time_of_completion'},
+        'widget_name2': {'uiPageName': 'x_dptmgr_DM_Estimated_time_of_completion'}
+    };
+}
+
+function render() {
+    var uiPageName = renderer.getPreference('uiPageName');
+    return renderer.getRenderedPage(uiPageName);
+}
+
+function getEditLink() {
+    return "sys_ui_page.do?sysparm_query=name=" + renderer.getPreferences().get("uiPageName");
+}
+]]></script>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>chourub</sys_created_by>
+        <sys_created_on>2018-06-19 08:37:05</sys_created_on>
+        <sys_id>22d3102dc1ba130065a1b070a313e253</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DM_Estimated_Deployment_Time</sys_name>
+        <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+        <sys_update_name>sys_widgets_22d3102dc1ba130065a1b070a313e253</sys_update_name>
+        <sys_updated_by>chourub</sys_updated_by>
+        <sys_updated_on>2018-06-19 11:28:03</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>

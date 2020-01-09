@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="activity" table="x_dptmgr_release_controls" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sprint Cycle</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>0</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:54:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8a30084dbc1a740cc4d94f9db961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Sprint Cycle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Release Cycle</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>10</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:54:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9463c844dbc1a740cc4d94f9db96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Release Cycle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Release Planning</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>20</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:54:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8593c844dbc1a740cc4d94f9db961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Release Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Release Scope Locked</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>40</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:55:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b38084dbc1a740cc4d94f9db96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Release Scope Locked</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Show, Tell and Try</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>50</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:55:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64c3c444dbc1a740cc4d94f9db9619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Show, Tell and Try</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAT Drop</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>60</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:56:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1140884dbc1a740cc4d94f9db961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>UAT Drop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Automated Testing</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>70</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f140484dbc1a740cc4d94f9db9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Automated Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pre-Prod Testing</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>70</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:57:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa348084dbc1a740cc4d94f9db9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Pre-Prod Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAT</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>80</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97440884dbc1a740cc4d94f9db961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>UAT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAT Refresh Start</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>90</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:57:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e548084dbc1a740cc4d94f9db9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>UAT Refresh Start</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAT Available</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>100</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2564c484dbc1a740cc4d94f9db96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>UAT Available</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Regression</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>110</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:58:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75744c84dbc1a740cc4d94f9db961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Regression</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Release Plan</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>120</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54840884dbc1a740cc4d94f9db961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Release Plan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gap between Minor</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>130</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:00:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8d440c4dbc1a740cc4d94f9db9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Gap between Minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Push Minor to Major</label>
+            <language>en</language>
+            <name>x_dptmgr_release_controls</name>
+            <sequence>140</sequence>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 12:00:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76e4c0c4dbc1a740cc4d94f9db961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+            <value>Push Minor to Major</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>activity</element>
+            <name>x_dptmgr_release_controls</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-04 11:54:24</sys_created_on>
+            <sys_id>87d51f58db6d001073ec70e2399619b5</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>activity</sys_name>
+            <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
+            <sys_update_name>sys_choice_x_dptmgr_release_controls_activity</sys_update_name>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-01-12 06:37:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

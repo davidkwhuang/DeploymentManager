@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="58ae2ad624cb030065a11788f71a4470" sys_domain="global" table="x_dptmgr_deployment" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
@@ -22,54 +21,68 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ecae2ad624cb030065a11788f71a4490</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
-            <sys_ui_section caption="Deployment" display_value="Deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">90ae2ad624cb030065a11788f71a446f</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:45</sys_updated_on>
+            <sys_ui_section caption="Release Day" display_value="Release Day" name="x_dptmgr_deployment" sys_domain="global" view="Default view">90ae2ad624cb030065a11788f71a446f</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-10 12:15:31</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
-            <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2017-12-17 17:51:31</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>ecae2ad624cb030065a11788f71a4473</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
-            <sys_ui_section caption="SIT &amp; UAT" display_value="SIT &amp; UAT" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:00:45</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2017-12-17 17:51:31</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6cae2ad624cb030065a11788f71a4494</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_dptmgr_deployment" sys_domain="global" view="Default view">d8ae2ad624cb030065a11788f71a446f</sys_ui_section>
-            <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2017-12-17 17:51:31</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
             <sys_created_by>chourub</sys_created_by>
             <sys_created_on>2018-02-09 13:26:18</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bdc73b2f0804d30065a1137d32afe1d2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
+            <sys_ui_section caption="Access" display_value="Access" name="x_dptmgr_deployment" sys_domain="global" view="Default view">b9c73b2f0804d30065a1137d32afe1cf</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-10 12:15:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2018-10-12 09:10:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08baec66db49ef804cfd96aadb96197e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
-            <sys_ui_section caption="Deployment Access" display_value="Deployment Access" name="x_dptmgr_deployment" sys_domain="global" view="Default view">b9c73b2f0804d30065a1137d32afe1cf</sys_ui_section>
-            <sys_updated_by>chourub</sys_updated_by>
-            <sys_updated_on>2018-02-09 13:26:18</sys_updated_on>
+            <sys_ui_section caption="Information" display_value="Information" name="x_dptmgr_deployment" sys_domain="global" view="Default view">08baec66db49ef804cfd96aadb96197a</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2018-10-12 09:10:15</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-02 10:45:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e5d398db6d001073ec70e2399619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
+            <sys_ui_section caption="Pre-Release Information" display_value="Pre-Release Information" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a446e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-02 10:45:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-02 10:45:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e51798db6d001073ec70e239961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dptmgr_deployment" name="x_dptmgr_deployment" sys_domain="global" view="Default view">58ae2ad624cb030065a11788f71a4470</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_dptmgr_deployment" sys_domain="global" view="Default view">d8ae2ad624cb030065a11788f71a446f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-02 10:45:39</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_dptmgr_deployment</name>
@@ -77,7 +90,6 @@
             <sys_class_name>sys_ui_form</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2017-12-17 17:51:31</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>58ae2ad624cb030065a11788f71a4470</sys_id>
@@ -86,7 +98,6 @@
             <sys_overrides/>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_form_sections_58ae2ad624cb030065a11788f71a4470</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>

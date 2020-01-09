@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="331a13b5249f830065a11788f71a4418" sys_domain="global" table="x_dptmgr_deployment_signoff" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>associated_deployment</element>
             <position>0</position>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:35</sys_created_on>
-            <sys_id>9671938c142c530065a1a5547cdcc3dd</sys_id>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>7f4a48eadb037f404a6096aadb961982</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:35</sys_updated_on>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,69 +18,125 @@
             <element>signoff_module</element>
             <position>1</position>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:36</sys_created_on>
-            <sys_id>5e71938c142c530065a1a5547cdcc3dd</sys_id>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>374a48eadb037f404a6096aadb961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:36</sys_updated_on>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>signed_off</element>
+            <element>signoff_module.key_process_owners</element>
             <position>2</position>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:36</sys_created_on>
-            <sys_id>de71938c142c530065a1a5547cdcc3dd</sys_id>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>b74a48eadb037f404a6096aadb961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:36</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>signed_off_by</element>
-            <position>3</position>
-            <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:36</sys_created_on>
-            <sys_id>5271938c142c530065a1a5547cdcc3de</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
-            <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:36</sys_updated_on>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:36</sys_created_on>
-            <sys_id>d271938c142c530065a1a5547cdcc3de</sys_id>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>3b4a48eadb037f404a6096aadb961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:36</sys_updated_on>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>percentage_complete</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>huandavk</sys_created_by>
-            <sys_created_on>2018-02-23 10:11:36</sys_created_on>
-            <sys_id>5671938c142c530065a1a5547cdcc3de</sys_id>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>bb4a48eadb037f404a6096aadb961983</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
             <sys_updated_by>huandavk</sys_updated_by>
-            <sys_updated_on>2018-02-23 10:11:36</sys_updated_on>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>signoff_module.engineering_contacts</element>
+            <position>5</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>3f4a48eadb037f404a6096aadb961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registered_attendance</element>
+            <position>6</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>bf4a48eadb037f404a6096aadb961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>email_sent</element>
+            <position>7</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>334a48eadb037f404a6096aadb961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registration_duration</element>
+            <position>8</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>b34a48eadb037f404a6096aadb961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_signoff_duration</element>
+            <position>9</position>
+            <sys_created_by>huandavk</sys_created_by>
+            <sys_created_on>2019-08-06 13:05:31</sys_created_on>
+            <sys_id>374a48eadb037f404a6096aadb961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dptmgr_deployment_signoff" sys_domain="global" view="Default view">331a13b5249f830065a11788f71a4418</sys_ui_section>
+            <sys_updated_by>huandavk</sys_updated_by>
+            <sys_updated_on>2019-08-06 13:05:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -93,7 +148,6 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>huandavk</sys_created_by>
             <sys_created_on>2017-12-28 18:00:15</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>331a13b5249f830065a11788f71a4418</sys_id>
@@ -102,7 +156,6 @@
             <sys_overrides/>
             <sys_package display_value="Deployment Manager" source="x_dptmgr">5fd762d224cb030065a11788f71a44af</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Deployment Manager">5fd762d224cb030065a11788f71a44af</sys_scope>
             <sys_update_name>sys_ui_section_331a13b5249f830065a11788f71a4418</sys_update_name>
             <sys_updated_by>huandavk</sys_updated_by>
